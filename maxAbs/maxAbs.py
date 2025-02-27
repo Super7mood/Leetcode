@@ -16,4 +16,4 @@ def maxAbsoluteSum(nums):
 
 if __name__ == "__main__":
     
-    print(maxAbsoluteSum([int(n) for n in input("Numbers: ").split()]))
+    print(maxAbsoluteSum([int(n) for n in input("Enter number seperated by spaces: ").split()]))
