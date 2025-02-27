@@ -22,4 +22,4 @@ A **subsequence** is derived from another sequence `arr` by deleting any number 
 
 Constraints:
 
-> `3 <= arr.length <= 1000` > `1 <= arr[i] < arr[i + 1] <= 10^9^`
+> `3 <= arr.length <= 1000` > `1 <= arr[i] < arr[i + 1] <= 10^9`
