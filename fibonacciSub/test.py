@@ -8,7 +8,7 @@ class Test_Fibonacci_Sub(unittest.TestCase):
         self.assertEqual(lenLongestFibSubseq([1, 4, 6]), 0)
     
     def test_false(self):
-        self.assertFalse(lenLongestFibSubseq([1, 2, 4, 5, 6, 7, 8, 9]), 2)
+        self.assertNotEqual(lenLongestFibSubseq([1, 2, 4, 5, 6, 7, 8, 9]), 2)
 
 if __name__ == "__main__":
     unittest.main()
